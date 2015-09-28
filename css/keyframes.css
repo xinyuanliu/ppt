@@ -1,0 +1,32 @@
+@keyframes border
+{
+    from {width:0px; height:0px;};
+}
+
+@keyframes bgcolor-black
+{
+    0% {background: #333;}
+    50% {background: #666;}
+    100% {background: #333;}
+}
+
+@-moz-keyframes bgcolor-black /* Firefox */
+{
+    0% {background: #333;}
+    50% {background: #666;}
+    100% {background: #333;}
+}
+
+@-webkit-keyframes bgcolor-black /* Safari 和 Chrome */
+{
+    0% {background: #333;}
+    50% {background: #666;}
+    100% {background: #333;}
+}
+
+@-o-keyframes bgcolor-black /* Opera */
+{
+    0% {background: #333;}
+    50% {background: #666;}
+    100% {background: #333;}
+}
